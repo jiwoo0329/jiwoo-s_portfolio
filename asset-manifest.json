@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jiwoo-s_portfolio/static/css/main.d45d741a.css",
+    "main.js": "/jiwoo-s_portfolio/static/js/main.a3140d9b.js",
+    "index.html": "/jiwoo-s_portfolio/index.html",
+    "main.d45d741a.css.map": "/jiwoo-s_portfolio/static/css/main.d45d741a.css.map",
+    "main.a3140d9b.js.map": "/jiwoo-s_portfolio/static/js/main.a3140d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45d741a.css",
+    "static/js/main.a3140d9b.js"
+  ]
+}
