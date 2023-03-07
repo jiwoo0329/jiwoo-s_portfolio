@@ -334,7 +334,7 @@ const My_project = () => {
 
             <div className='topNav_in'>
                 <Link to="/bignav">
-                    <button title='홈으로 이동' className='goHome'><i class="fa-solid fa-house"></i> Home</button>
+                    <button title='홈으로 이동' className='goHome'><i className="fa-solid fa-house"></i> Home</button>
                 </Link>
                 <ul>
                     <li className='line'><button>Team Project</button></li>

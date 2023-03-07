@@ -223,11 +223,11 @@ const About_me = (props) => {
     )
     info_text.push(
       <ul className="info_me">
-        <li><i class="fa-solid fa-cake-candles"></i> 1999. 03. 29 (만 23세)</li>
-        <li><i class="fa-solid fa-mobile-screen"></i> +82 10-7541-6944</li>
-        <li><i class="fa-solid fa-graduation-cap"></i> 부산 외국어 대학교 / 러시아 학과 (4.01/4.5)</li>
-        <li><i class="fa-solid fa-paper-plane"></i> hjw0329@naver.com</li>
-        <li><i class="fa-brands fa-github"></i><a target="_blank" href="https://github.com/jiwoo0329"> https://github.com/jiwoo0329</a></li>
+        <li><i className="fa-solid fa-cake-candles"></i> 1999. 03. 29 (만 23세)</li>
+        <li><i className="fa-solid fa-mobile-screen"></i> +82 10-7541-6944</li>
+        <li><i className="fa-solid fa-graduation-cap"></i> 부산 외국어 대학교 / 러시아 학과 (4.01/4.5)</li>
+        <li><i className="fa-solid fa-paper-plane"></i> hjw0329@naver.com</li>
+        <li><i className="fa-brands fa-github"></i><a target="_blank" href="https://github.com/jiwoo0329"> https://github.com/jiwoo0329</a></li>
       </ul>
     )
 
@@ -245,7 +245,7 @@ const About_me = (props) => {
 
             <div className='topNav_in'>
                 <Link to="/bignav">
-                    <button title='홈으로 이동' className='goHome'><i class="fa-solid fa-house"></i> Home</button>
+                    <button title='홈으로 이동' className='goHome'><i className="fa-solid fa-house"></i> Home</button>
                 </Link>
                 <ul>
                     <li className='line'><button>About</button></li>
