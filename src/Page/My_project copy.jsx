@@ -319,6 +319,10 @@ const My_project = () => {
       const etc = () => {
         MovePoint1.current?.scrollIntoView({ behavior: 'smooth'});
       };
+
+      const alertTxt = () => {
+        alert("준비 중 입니다.");
+      }
       
   return (
     <>
@@ -382,7 +386,7 @@ const My_project = () => {
                 </div>
                 <div className='Team_slideBottom first'>
                   <h3><span>l</span>Ⅰ. Movie Project
-                  <div className="goGit"><i className="fa-brands fa-github"></i><a target="_blank" href="https://github.com/HHeeW/CHK_Movie"></a></div>
+                  <div className="goGit"><a target="_blank" href="https://github.com/HHeeW/CHK_Movie"><i className="fa-brands fa-github"></i></a></div>
                   </h3>
                     <ul>
                       <li>- 참가 인원: 4명</li>
@@ -411,7 +415,7 @@ const My_project = () => {
                 <div className='slide_in'>
                 <div className='Team_slideBottom first'>
                   <h3><span>l</span>Ⅱ. Cafe Project
-                  <div className="goGit"><i className="fa-brands fa-github"></i><a target="_blank" href="https://github.com/libby0322/Cafe_Lib_ver"></a></div></h3>
+                  <div className="goGit"><a target="_blank" href="https://github.com/libby0322/Cafe_Lib_ver"><i className="fa-brands fa-github"></i></a></div></h3>
                     <ul>
                       <li>- 참가인원: 3명</li>
                       <li>- 제작기간: 3개월</li>
@@ -475,8 +479,8 @@ const My_project = () => {
                       <img className="Mini_photo" src="../images/mini1.png" alt="미니프로젝트 사진"/>
 
                       <div className='Mini_moveBtn'>
-                        <button>Live</button>
-                        <button>Code</button>
+                        <button onClick={alertTxt}>Live</button>
+                        <button onClick={alertTxt}>Code</button>
                       </div>
 
                     </div>
@@ -526,7 +530,7 @@ const My_project = () => {
 
                       <div className='Mini_moveBtn'>
                         <button><a target="_blank" href="https://jiwoo0329.github.io/moonbucks/">Live</a></button>
-                        <button>Code</button>
+                        <button><a target="_blank" href="https://github.com/jiwoo0329/moonbucks">Code</a></button>
                       </div>
 
                     </div>
@@ -627,8 +631,8 @@ const My_project = () => {
                       <img className="Mini_photo" src="../images/mini4.png" alt="미니프로젝트 사진"/>
 
                       <div className='Mini_moveBtn'>
-                        <button>Live</button>
-                        <button>Code</button>
+                        <button onClick={alertTxt}>Live</button>
+                        <button onClick={alertTxt}>Code</button>
                       </div>
 
                     </div>
@@ -678,8 +682,9 @@ const My_project = () => {
                       <img className="Mini_photo" src="../images/mini5.png" alt="미니프로젝트 사진"/>
 
                       <div className='Mini_moveBtn'>
-                        <button>Live</button>
-                        <button>Code</button>
+                        {/* <button><a target="_blank" href="https://jiwoo0329.github.io/TravelChallengeBlog/">Live</a></button> */}
+                        <button onClick={alertTxt}>Live</button>
+                        <button><a target="_blank" href="https://github.com/jiwoo0329/TravelChallenge-Blog">Code</a></button>
                       </div>
 
                     </div>
@@ -781,8 +786,8 @@ const My_project = () => {
                       <img className="Mini_photo" src="../images/mini_last.png" alt="미니프로젝트 사진"/>
 
                       <div className='Mini_moveBtn'>
-                        <button>Live</button>
-                        <button>Code</button>
+                        <button><a target="_blank" href="https://jiwoo0329.github.io/jiwoo-s_portfolio/">Live</a></button>
+                        <button><a target="_blank" href="https://github.com/jiwoo0329/jiwoo-s_portfolio">Code</a></button>
                       </div>
 
                     </div>

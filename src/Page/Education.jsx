@@ -151,19 +151,27 @@ const Education = () => {
               </div>
             </div>
             <div className="school_">
-              <div className="school_left">22.08 ~ current</div>
+              <div className="school_left">22.08 ~ 22.09</div>
               <div className="timeLine"></div>
               <div className="school_right">
                 <div className="school_company">(재)한국아이티교육재단 x 한국IT직업전문학교 x 이젠 컴퓨터 아카데미</div>
                 <p>🠆 리액트 네이티브(React Native) 앱개발 프로젝트_청년층 특화</p>
               </div>
             </div>
-            <div className="school_ shool_lastItem">
+            <div className="school_">
               <div className="school_left">22. 09. 16</div>
               <div className="timeLine"></div>
               <div className="school_right">
                 <div className="school_company">한국산업인력공단</div>
                 <p>🠆 '정보처리기능사' 최종 합격</p>
+              </div>
+            </div>
+            <div className="school_ shool_lastItem">
+              <div className="school_left">22.10 ~ 23.02</div>
+              <div className="timeLine"></div>
+              <div className="school_right">
+                <div className="school_company">예일미디어</div>
+                <p>🠆 인턴_학원 교육 플랫폼 프론트엔드 개발</p>
               </div>
             </div>
             
